@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desktop Work OS</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="tasks-panel" aria-labelledby="tasks-heading">
+        <header class="app-header">
+          <div>
+            <p class="eyebrow">Desktop Work OS</p>
+            <h1 id="tasks-heading">Tasks</h1>
+          </div>
+        </header>
+
+        <form id="task-form" class="task-form">
+          <input id="task-title" type="text" placeholder="Add a task" autocomplete="off" required />
+          <button type="submit">Add</button>
+        </form>
+
+        <div id="task-list" class="task-list"></div>
+      </section>
+
+      <section class="activity-panel" aria-labelledby="activity-heading">
+        <header class="panel-header">
+          <div>
+            <p class="eyebrow">Local browser data</p>
+            <h2 id="activity-heading">Activity Log</h2>
+          </div>
+        </header>
+
+        <form id="file-entry-form" class="file-entry-form">
+          <input id="file-entry" type="text" placeholder="Add manual file entry" autocomplete="off" required />
+          <button type="submit">Log</button>
+        </form>
+
+        <div id="activity-list" class="activity-list"></div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

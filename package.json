@@ -1,0 +1,23 @@
+{
+  "name": "desktop-work-os",
+  "version": "0.1.0",
+  "description": "A static web app for task management and activity logging.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/dev-server.mjs dist"
+  },
+  "keywords": [
+    "static",
+    "web",
+    "tasks",
+    "productivity",
+    "vercel"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
