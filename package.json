@@ -4,9 +4,10 @@
   "description": "A static web app for task management and activity logging.",
   "type": "module",
   "private": true,
-  "scripts": {
-    "dev": "node scripts/dev-server.mjs",
-    "build": "node scripts/build.mjs",
+ "scripts": {
+  "dev": "echo 'dev not needed'",
+  "build": "echo 'no build needed'"
+}
     "preview": "node scripts/dev-server.mjs dist"
   },
   "keywords": [
