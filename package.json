@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "echo 'dev not needed'",
     "build": "echo 'no build needed'",
-    "preview": "node scripts/dev-server.mjs dist"
+    "preview": "echo 'no preview needed'"
   },
   "keywords": [
     "static",
